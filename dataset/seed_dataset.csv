@@ -1,0 +1,267 @@
+id,sentence_text,label,label_text,control,framework,criterion,source
+S0001,A boundary firewall is in place between our internal network and the internet.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,boundary firewall in place and configured,ce_definition
+S0002,The office router's firewall is configured and active on all connections.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,boundary firewall in place and configured,ce_definition
+S0003,Windows Defender Firewall is enabled on every laptop and desktop we use.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,host/software firewalls enabled on devices,ce_definition
+S0004,"Software firewalls are switched on for all staff devices, including those used off-site.",1,COMPLIANT,CE1_Firewalls,Cyber Essentials,host/software firewalls enabled on devices,ce_definition
+S0005,The default password on our router was changed when it was installed.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,default router/firewall passwords changed,ce_definition
+S0006,"We replaced the manufacturer's password on the firewall with a strong, unique one.",1,COMPLIANT,CE1_Firewalls,Cyber Essentials,default router/firewall passwords changed,ce_definition
+S0007,Inbound connections are blocked by default unless specifically approved.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections blocked by default,ce_definition
+S0008,Unapproved incoming traffic is denied at the network boundary.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections blocked by default,ce_definition
+S0009,Firewall rules are reviewed by our IT provider every six months.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,firewall rules reviewed periodically,ce_definition
+S0010,We check the firewall configuration as part of our annual IT review.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,firewall rules reviewed periodically,cqc_style
+S0011,The firewall's administrative interface is not accessible from the internet.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,admin interface protected / not internet-facing,ce_definition
+S0012,Remote management of the router requires multi-factor authentication.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,admin interface protected / not internet-facing,ce_definition
+S0013,Guest Wi-Fi for visitors and residents is kept separate from the staff network.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,boundary firewall in place and configured,ce_definition
+S0014,Unused ports on the network equipment have been disabled.,1,COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections blocked by default,ce_definition
+S0015,There is no firewall protecting the home's network from the internet.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,no firewall at the network boundary,ce_definition
+S0016,The broadband router was installed without any firewall configuration.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,no firewall at the network boundary,cqc_style
+S0017,Software firewalls have been turned off on several office computers.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,firewalls disabled or absent on devices,ce_definition
+S0018,Staff laptops used away from the home do not have a firewall enabled.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,firewalls disabled or absent on devices,ce_definition
+S0019,The router is still using the default password printed on the label.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,default router/firewall passwords still in use,ce_definition
+S0020,Nobody changed the manufacturer's password when the firewall was set up.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,default router/firewall passwords still in use,cqc_style
+S0021,Incoming connections from the internet are not restricted.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections open or unrestricted,ce_definition
+S0022,The firewall allows all inbound traffic through by default.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections open or unrestricted,ce_definition
+S0023,The firewall settings have not been reviewed since the system was installed.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,firewall never reviewed or configured,cqc_style
+S0024,No one has looked at the firewall rules in over two years.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,firewall never reviewed or configured,cqc_style
+S0025,The router's admin console can be reached from the internet without protection.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,admin console exposed to internet without protection,ce_definition
+S0026,Visitors and staff use the same Wi-Fi network with no separation between them.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,no firewall at the network boundary,cqc_style
+S0027,All ports on the router were left open when the network was set up.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,inbound connections open or unrestricted,ce_definition
+S0028,There was no evidence of any firewall protecting the care records system.,0,NON_COMPLIANT,CE1_Firewalls,Cyber Essentials,no firewall at the network boundary,cqc_style
+S0029,Default passwords are changed on every new device before staff use it.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,default passwords changed before deployment,ce_definition
+S0030,All equipment is set up with a unique password rather than the factory default.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,default passwords changed before deployment,ce_definition
+S0031,Software that is not needed for care delivery has been removed from our computers.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,unnecessary software removed or disabled,ce_definition
+S0032,We uninstall any applications that are not required for staff to do their jobs.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,unnecessary software removed or disabled,ce_definition
+S0033,User accounts belonging to former staff are disabled and removed.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,unused user accounts disabled/removed,ce_definition
+S0034,Dormant accounts are identified and closed during our quarterly account review.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,unused user accounts disabled/removed,ce_definition
+S0035,Auto-run is disabled so USB sticks cannot launch programs automatically.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,auto-run/auto-play disabled,ce_definition
+S0036,Removable media does not run automatically when plugged into our machines.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,auto-run/auto-play disabled,ce_definition
+S0037,Devices are configured to our security baseline before being issued to staff.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,devices hardened from default settings,ce_definition
+S0038,Our IT supplier hardens each machine before it is deployed in the home.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,devices hardened from default settings,ce_definition
+S0039,We keep a record of all software installed across the home's computers.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,a software/asset inventory maintained,ce_definition
+S0040,An up-to-date asset register lists every device and application in use.,1,COMPLIANT,CE2_SecureConfig,Cyber Essentials,a software/asset inventory maintained,ce_definition
+S0041,Devices are still using the default passwords they came with.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,default/manufacturer passwords unchanged,ce_definition
+S0042,The care records tablet has never had its factory password changed.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,default/manufacturer passwords unchanged,cqc_style
+S0043,Staff install software on work computers without asking anyone first.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,unnecessary or unknown software left installed,ce_definition
+S0044,Several computers have games and personal applications installed on them.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,unnecessary or unknown software left installed,cqc_style
+S0045,Accounts for staff who left months ago are still active on the system.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,dormant or unused accounts left active,ce_definition
+S0046,"We do not review user accounts, so unused logins remain open.",0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,dormant or unused accounts left active,ce_definition
+S0047,USB devices run automatically as soon as they are plugged in.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,auto-run left enabled on removable media,ce_definition
+S0048,Auto-run has not been turned off on the office computers.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,auto-run left enabled on removable media,ce_definition
+S0049,"Computers are used exactly as they arrived, with no security settings applied.",0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,devices left on out-of-the-box settings,ce_definition
+S0050,No hardening was carried out on the machines before staff started using them.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,devices left on out-of-the-box settings,cqc_style
+S0051,There is no list of what software is running on the home's computers.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,no inventory of installed software,ce_definition
+S0052,The provider could not say how many devices were in use across the service.,0,NON_COMPLIANT,CE2_SecureConfig,Cyber Essentials,no inventory of installed software,cqc_style
+S0053,Critical security updates are applied within fourteen days of release.,1,COMPLIANT,CE3_Patching,Cyber Essentials,security updates applied promptly / within 14 days,ce_definition
+S0054,High-risk patches are installed promptly once the vendor issues them.,1,COMPLIANT,CE3_Patching,Cyber Essentials,security updates applied promptly / within 14 days,ce_definition
+S0055,Automatic updates are switched on across all our computers and tablets.,1,COMPLIANT,CE3_Patching,Cyber Essentials,automatic updates enabled,ce_definition
+S0056,Windows Update runs automatically on every device in the home.,1,COMPLIANT,CE3_Patching,Cyber Essentials,automatic updates enabled,ce_definition
+S0057,All software we use is still supported and receives security updates.,1,COMPLIANT,CE3_Patching,Cyber Essentials,only supported/maintained software in use,ce_definition
+S0058,We check that our applications remain within the vendor's support period.,1,COMPLIANT,CE3_Patching,Cyber Essentials,only supported/maintained software in use,ce_definition
+S0059,Operating systems across the home are kept current with the latest updates.,1,COMPLIANT,CE3_Patching,Cyber Essentials,operating systems kept current,ce_definition
+S0060,Our IT provider monitors patch status and reports on it monthly.,1,COMPLIANT,CE3_Patching,Cyber Essentials,patch status tracked/monitored,ce_definition
+S0061,We track which devices are up to date using our management console.,1,COMPLIANT,CE3_Patching,Cyber Essentials,patch status tracked/monitored,ce_definition
+S0062,Equipment that can no longer be updated is replaced rather than kept in use.,1,COMPLIANT,CE3_Patching,Cyber Essentials,unsupported items removed or replaced,ce_definition
+S0063,Security updates have not been applied for several months.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,updates delayed weeks/months or not applied,ce_definition
+S0064,"Patches are installed only when someone remembers, sometimes months late.",0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,updates delayed weeks/months or not applied,cqc_style
+S0065,Automatic updates have been turned off because staff found them disruptive.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,automatic updates disabled,ce_definition
+S0066,Updates are disabled on the medication system computer.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,automatic updates disabled,cqc_style
+S0067,Several computers are running software the vendor no longer supports.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,unsupported/end-of-life software in use,ce_definition
+S0068,The office PC still runs an operating system that stopped receiving updates.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,unsupported/end-of-life software in use,cqc_style
+S0069,Some machines are running outdated operating systems that are past end-of-life.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,outdated operating systems running,ce_definition
+S0070,There is no way of knowing whether devices have received their updates.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,no process for tracking patches,ce_definition
+S0071,Nobody monitors whether patches have actually been installed.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,no process for tracking patches,cqc_style
+S0072,Unsupported equipment is still in daily use with no plan to replace it.,0,NON_COMPLIANT,CE3_Patching,Cyber Essentials,unsupported items knowingly retained without action,ce_definition
+S0073,Multi-factor authentication is enabled for all remote access to our systems.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,MFA enabled on remote/cloud/internet-facing access,ce_definition
+S0074,Staff must use a second factor to sign in to our cloud care records.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,MFA enabled on remote/cloud/internet-facing access,ce_definition
+S0075,Our email accounts are protected by multi-factor authentication.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,MFA enabled on remote/cloud/internet-facing access,ce_definition
+S0076,Staff only have access to the systems and records their role requires.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,least-privilege access,ce_definition
+S0077,Access rights are granted on a least-privilege basis and reviewed regularly.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,least-privilege access,ce_definition
+S0078,Care assistants can view care plans but cannot access payroll information.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,least-privilege access,cqc_style
+S0079,Administrator accounts are separate from the accounts used for daily work.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,"separate admin accounts, not used for daily work",ce_definition
+S0080,The manager uses a standard account for email and a separate one for admin tasks.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,"separate admin accounts, not used for daily work",ce_definition
+S0081,Accounts are disabled on a member of staff's last working day.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,leavers' accounts disabled promptly,ce_definition
+S0082,Leavers' access is removed within twenty-four hours of their departure.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,leavers' accounts disabled promptly,ce_definition
+S0083,Every member of staff has their own named login to the care system.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,individual accounts per user,ce_definition
+S0084,Individual accounts mean we can see who accessed each record.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,individual accounts per user,ce_definition
+S0085,A password policy requiring strong passwords is enforced on all accounts.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,a strong password policy enforced,ce_definition
+S0086,Accounts lock after repeated failed sign-in attempts.,1,COMPLIANT,CE4_AccessControl,Cyber Essentials,a strong password policy enforced,ce_definition
+S0087,Remote access to the care system does not require multi-factor authentication.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,no MFA on remote/cloud access,ce_definition
+S0088,Staff can sign in to email from home using only a password.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,no MFA on remote/cloud access,ce_definition
+S0089,All staff can see every resident's full record regardless of their role.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,staff have excessive or blanket access,ce_definition
+S0090,Kitchen staff have the same system access as senior care staff.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,staff have excessive or blanket access,cqc_style
+S0091,Everyone signs in with an administrator account to do their everyday work.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,admin accounts used for everyday tasks,ce_definition
+S0092,The manager uses the admin login for email and browsing the internet.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,admin accounts used for everyday tasks,ce_definition
+S0093,Staff who left the home still have working logins to the care system.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,former staff accounts still active,ce_definition
+S0094,Accounts are only removed when someone notices they are no longer needed.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,former staff accounts still active,cqc_style
+S0095,Staff share a single login for the care records system.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,shared/generic accounts or shared passwords,ce_definition
+S0096,The password for the office computer is written on a note beside it.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,shared/generic accounts or shared passwords,cqc_style
+S0097,Night staff use a shared generic account to record care notes.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,shared/generic accounts or shared passwords,cqc_style
+S0098,There is no password policy setting a minimum standard for staff passwords.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,no password policy / weak or default passwords,ce_definition
+S0099,Staff choose their own passwords with no requirements on length or strength.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,no password policy / weak or default passwords,ce_definition
+S0100,Accounts do not lock out after repeated failed login attempts.,0,NON_COMPLIANT,CE4_AccessControl,Cyber Essentials,no password policy / weak or default passwords,ce_definition
+S0101,Anti-malware software is installed and running on every computer in the home.,1,COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed and active on all devices,ce_definition
+S0102,Microsoft Defender is active on all our Windows devices.,1,COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed and active on all devices,ce_definition
+S0103,"Every laptop, including those used off-site, has malware protection enabled.",1,COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed and active on all devices,ce_definition
+S0104,Malware definitions are updated daily on all protected devices.,1,COMPLIANT,CE5_Malware,Cyber Essentials,malware definitions kept up to date,ce_definition
+S0105,Our anti-virus software updates itself automatically each day.,1,COMPLIANT,CE5_Malware,Cyber Essentials,malware definitions kept up to date,ce_definition
+S0106,Email filtering blocks malicious attachments before they reach staff inboxes.,1,COMPLIANT,CE5_Malware,Cyber Essentials,email filtering blocking malicious attachments,ce_definition
+S0107,Suspicious emails are quarantined by our mail filtering service.,1,COMPLIANT,CE5_Malware,Cyber Essentials,email filtering blocking malicious attachments,ce_definition
+S0108,Web filtering prevents staff from reaching known malicious websites.,1,COMPLIANT,CE5_Malware,Cyber Essentials,web filtering blocking malicious sites,ce_definition
+S0109,Only approved applications are permitted to run on our computers.,1,COMPLIANT,CE5_Malware,Cyber Essentials,application allow-listing in place,ce_definition
+S0110,Real-time scanning is enabled so files are checked as they are opened.,1,COMPLIANT,CE5_Malware,Cyber Essentials,real-time scanning enabled,ce_definition
+S0111,Detections from the anti-malware software are reviewed by our IT provider.,1,COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed and active on all devices,ce_definition
+S0112,The computers do not have any anti-virus software installed.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no antivirus/anti-malware on devices,ce_definition
+S0113,There is no malware protection on the machine used for care records.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no antivirus/anti-malware on devices,cqc_style
+S0114,"Staff use their own laptops, which have no anti-virus protection.",0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no antivirus/anti-malware on devices,cqc_style
+S0115,The anti-virus definitions on most devices are several months out of date.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,definitions out of date / not maintained,ce_definition
+S0116,Malware protection is installed but has not updated since last year.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,definitions out of date / not maintained,ce_definition
+S0117,There is no email filtering to catch phishing or malicious attachments.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no email filtering for malware/phishing,ce_definition
+S0118,Malicious attachments reach staff inboxes because nothing filters them.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no email filtering for malware/phishing,ce_definition
+S0119,Staff can browse any website they like with no filtering in place.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,"unrestricted web access, no filtering",ce_definition
+S0120,No controls exist to stop unapproved programs running on our computers.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,no malware controls of any kind,ce_definition
+S0121,Anti-virus is installed on the office PC but has been disabled.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed but disabled/unmaintained,ce_definition
+S0122,Alerts from the anti-virus software are logged but never looked at.,0,NON_COMPLIANT,CE5_Malware,Cyber Essentials,anti-malware installed but disabled/unmaintained,cqc_style
+S0123,Staff understand their responsibilities for handling residents' confidential information.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,staff understanding their data handling responsibilities,dspt_definition
+S0124,All staff know they are personally accountable for how they handle personal data.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,staff understanding their data handling responsibilities,dspt_definition
+S0125,Responsibility for confidential resident information is clearly assigned.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,clear accountability for confidential data,dspt_definition
+S0126,The registered manager holds overall accountability for data protection.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,clear accountability for confidential data,dspt_definition
+S0127,Personal confidential data is handled responsibly by everyone in the service.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,responsible handling of personal confidential data,dspt_definition
+S0128,Care records are treated as confidential and handled accordingly.,1,COMPLIANT,DSPT1_ConfidentialData,DSPT,responsible handling of personal confidential data,cqc_style
+S0129,Staff were not aware of their responsibilities for handling confidential data.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,staff unaware of data handling responsibilities,dspt_definition
+S0130,Several staff could not explain what they should do with confidential information.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,staff unaware of data handling responsibilities,cqc_style
+S0131,It is unclear who is accountable for data protection at the home.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,no clarity on who is accountable,dspt_definition
+S0132,Nobody has been given responsibility for confidential information.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,no clarity on who is accountable,dspt_definition
+S0133,Resident records were left on desks in areas visitors could access.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,careless or undefined handling of confidential data,cqc_style
+S0134,Confidential handover notes were left in the staff room overnight.,0,NON_COMPLIANT,DSPT1_ConfidentialData,DSPT,careless or undefined handling of confidential data,cqc_style
+S0135,Confidentiality obligations are written into every member of staff's contract.,1,COMPLIANT,DSPT2_StaffResponsibilities,DSPT,confidentiality/data terms included in staff contracts,dspt_definition
+S0136,Data protection responsibilities form part of our standard employment terms.,1,COMPLIANT,DSPT2_StaffResponsibilities,DSPT,confidentiality/data terms included in staff contracts,dspt_definition
+S0137,Staff sign a confidentiality agreement when they join the service.,1,COMPLIANT,DSPT2_StaffResponsibilities,DSPT,confidentiality/data terms included in staff contracts,dspt_definition
+S0138,Breaches of our data policy are dealt with through the disciplinary process.,1,COMPLIANT,DSPT2_StaffResponsibilities,DSPT,breaches handled through a defined process,dspt_definition
+S0139,There is a clear process for acting on deliberate or avoidable data breaches.,1,COMPLIANT,DSPT2_StaffResponsibilities,DSPT,breaches handled through a defined process,dspt_definition
+S0140,Staff contracts say nothing about data protection or confidentiality.,0,NON_COMPLIANT,DSPT2_StaffResponsibilities,DSPT,no data responsibilities in contracts,dspt_definition
+S0141,Employment terms do not mention responsibilities for handling personal data.,0,NON_COMPLIANT,DSPT2_StaffResponsibilities,DSPT,no data responsibilities in contracts,dspt_definition
+S0142,Data policy breaches have occurred but no action was taken.,0,NON_COMPLIANT,DSPT2_StaffResponsibilities,DSPT,breaches ignored or not acted upon,dspt_definition
+S0143,There is no process for responding when staff breach the data policy.,0,NON_COMPLIANT,DSPT2_StaffResponsibilities,DSPT,breaches ignored or not acted upon,dspt_definition
+S0144,All staff complete data security training every year.,1,COMPLIANT,DSPT3_Training,DSPT,staff completed annual data security/IG training,dspt_definition
+S0145,Information governance training is refreshed annually for the whole team.,1,COMPLIANT,DSPT3_Training,DSPT,staff completed annual data security/IG training,dspt_definition
+S0146,Every member of staff completed their data security module this year.,1,COMPLIANT,DSPT3_Training,DSPT,staff completed annual data security/IG training,dspt_definition
+S0147,New starters receive data security training during their induction.,1,COMPLIANT,DSPT3_Training,DSPT,training completed at induction,dspt_definition
+S0148,Information governance is covered in the first week of induction.,1,COMPLIANT,DSPT3_Training,DSPT,training completed at induction,dspt_definition
+S0149,Training records show ninety-five per cent completion for the current year.,1,COMPLIANT,DSPT3_Training,DSPT,high completion rates recorded,dspt_definition
+S0150,Our training matrix shows all staff are up to date on data security.,1,COMPLIANT,DSPT3_Training,DSPT,high completion rates recorded,cqc_style
+S0151,Staff must pass a test at the end of the data security training.,1,COMPLIANT,DSPT3_Training,DSPT,mandatory test passed,dspt_definition
+S0152,Completion of the mandatory data security assessment is tracked for every member of staff.,1,COMPLIANT,DSPT3_Training,DSPT,mandatory test passed,dspt_definition
+S0153,Staff receive phishing awareness training so they can spot suspicious emails.,1,COMPLIANT,DSPT3_Training,DSPT,phishing/awareness training delivered,dspt_definition
+S0154,We run regular awareness sessions on recognising cyber threats.,1,COMPLIANT,DSPT3_Training,DSPT,phishing/awareness training delivered,dspt_definition
+S0155,Staff have not completed any data security training.,0,NON_COMPLIANT,DSPT3_Training,DSPT,staff have not completed training,dspt_definition
+S0156,There is no annual data security training for the team.,0,NON_COMPLIANT,DSPT3_Training,DSPT,staff have not completed training,dspt_definition
+S0157,New staff start work without any training on information governance.,0,NON_COMPLIANT,DSPT3_Training,DSPT,no induction training on data security,dspt_definition
+S0158,Induction does not include anything about handling confidential data.,0,NON_COMPLIANT,DSPT3_Training,DSPT,no induction training on data security,dspt_definition
+S0159,Only thirty per cent of staff have completed the data security module.,0,NON_COMPLIANT,DSPT3_Training,DSPT,low or unrecorded completion rates,dspt_definition
+S0160,There are no records showing who has completed information governance training.,0,NON_COMPLIANT,DSPT3_Training,DSPT,low or unrecorded completion rates,dspt_definition
+S0161,Only the registered manager has received information governance training.,0,NON_COMPLIANT,DSPT3_Training,DSPT,low or unrecorded completion rates,cqc_style
+S0162,The training is provided but staff are not tested on it.,0,NON_COMPLIANT,DSPT3_Training,DSPT,training not tested or not mandatory,dspt_definition
+S0163,Data security training is optional and few staff have taken it.,0,NON_COMPLIANT,DSPT3_Training,DSPT,training not tested or not mandatory,dspt_definition
+S0164,Staff have had no training on recognising phishing emails.,0,NON_COMPLIANT,DSPT3_Training,DSPT,no awareness training provided,dspt_definition
+S0165,There is no cyber awareness training of any kind at the service.,0,NON_COMPLIANT,DSPT3_Training,DSPT,no awareness training provided,dspt_definition
+S0166,Access to care records is restricted to staff who need it for their role.,1,COMPLIANT,DSPT4_DataAccess,DSPT,access restricted to staff who need it,dspt_definition
+S0167,Only authorised staff can open residents' confidential records.,1,COMPLIANT,DSPT4_DataAccess,DSPT,access restricted to staff who need it,dspt_definition
+S0168,Access to personal data is removed as soon as it is no longer needed for the role.,1,COMPLIANT,DSPT4_DataAccess,DSPT,access removed when role changes/ends,dspt_definition
+S0169,"When staff change roles, their access rights are updated to match.",1,COMPLIANT,DSPT4_DataAccess,DSPT,access removed when role changes/ends,dspt_definition
+S0170,Every access to a resident's record can be traced back to an individual.,1,COMPLIANT,DSPT4_DataAccess,DSPT,access attributable to individuals,dspt_definition
+S0171,The system logs who viewed each care record and when.,1,COMPLIANT,DSPT4_DataAccess,DSPT,access attributable to individuals,dspt_definition
+S0172,Role-based access controls determine what each member of staff can see.,1,COMPLIANT,DSPT4_DataAccess,DSPT,role-based access enforced,dspt_definition
+S0173,Access permissions are set according to job role and reviewed regularly.,1,COMPLIANT,DSPT4_DataAccess,DSPT,role-based access enforced,dspt_definition
+S0174,Staff can access resident records that have nothing to do with their role.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,data accessible to staff who don't need it,dspt_definition
+S0175,Anyone with a login can open any resident's full care record.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,data accessible to staff who don't need it,dspt_definition
+S0176,"Access rights are never removed, even when staff move to different roles.",0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,access retained after it is no longer needed,dspt_definition
+S0177,A member of staff retained access to payroll data after moving to a care role.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,access retained after it is no longer needed,cqc_style
+S0178,"Because logins are shared, it is not possible to tell who viewed a record.",0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,access not attributable (shared logins),dspt_definition
+S0179,The system does not record which member of staff accessed which record.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,access not attributable (shared logins),dspt_definition
+S0180,There are no role-based restrictions on the care records system.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,no role-based restrictions,dspt_definition
+S0181,The provider had no system for managing who could access sensitive data.,0,NON_COMPLIANT,DSPT4_DataAccess,DSPT,no role-based restrictions,cqc_style
+S0182,Our data handling processes are reviewed at least once a year.,1,COMPLIANT,DSPT5_ProcessReviews,DSPT,processes reviewed at least annually,dspt_definition
+S0183,An annual review checks whether our information processes are still fit for purpose.,1,COMPLIANT,DSPT5_ProcessReviews,DSPT,processes reviewed at least annually,dspt_definition
+S0184,We hold workshops after any near miss to improve the process involved.,1,COMPLIANT,DSPT5_ProcessReviews,DSPT,reviews used to improve after breaches/near misses,dspt_definition
+S0185,Lessons from previous incidents are used to change how we work.,1,COMPLIANT,DSPT5_ProcessReviews,DSPT,reviews used to improve after breaches/near misses,dspt_definition
+S0186,"Where staff have found workarounds, we review the process and fix it.",1,COMPLIANT,DSPT5_ProcessReviews,DSPT,insecure workarounds identified and addressed,dspt_definition
+S0187,Our data handling processes have never been reviewed.,0,NON_COMPLIANT,DSPT5_ProcessReviews,DSPT,processes never reviewed,dspt_definition
+S0188,There is no annual review of how we handle information.,0,NON_COMPLIANT,DSPT5_ProcessReviews,DSPT,processes never reviewed,dspt_definition
+S0189,Near misses are not discussed and nothing changes as a result.,0,NON_COMPLIANT,DSPT5_ProcessReviews,DSPT,no learning from breaches or near misses,dspt_definition
+S0190,Previous data breaches did not lead to any change in practice.,0,NON_COMPLIANT,DSPT5_ProcessReviews,DSPT,no learning from breaches or near misses,cqc_style
+S0191,Staff routinely work around the system and this has not been addressed.,0,NON_COMPLIANT,DSPT5_ProcessReviews,DSPT,staff rely on insecure workarounds unaddressed,dspt_definition
+S0192,We have a written procedure for responding to data security incidents.,1,COMPLIANT,DSPT6_Incidents,DSPT,a documented incident response procedure,dspt_definition
+S0193,An incident response plan sets out what to do if we suffer a cyber attack.,1,COMPLIANT,DSPT6_Incidents,DSPT,a documented incident response procedure,dspt_definition
+S0194,Data breaches are reported to the Information Commissioner's Office within 72 hours.,1,COMPLIANT,DSPT6_Incidents,DSPT,breaches reported to ICO within 72 hours,dspt_definition
+S0195,Any reportable breach is notified to the ICO within the required timeframe.,1,COMPLIANT,DSPT6_Incidents,DSPT,breaches reported to ICO within 72 hours,dspt_definition
+S0196,All incidents and near misses are recorded in our incident log.,1,COMPLIANT,DSPT6_Incidents,DSPT,incidents logged and reviewed,dspt_definition
+S0197,The incident log is reviewed by the management team each month.,1,COMPLIANT,DSPT6_Incidents,DSPT,incidents logged and reviewed,dspt_definition
+S0198,Staff know who to tell if they think a data breach has happened.,1,COMPLIANT,DSPT6_Incidents,DSPT,staff know how to report incidents,dspt_definition
+S0199,Everyone is clear on how to report a suspected security incident.,1,COMPLIANT,DSPT6_Incidents,DSPT,staff know how to report incidents,dspt_definition
+S0200,We act on security advisories when they are issued.,1,COMPLIANT,DSPT6_Incidents,DSPT,security advisories acted upon,dspt_definition
+S0201,There is no procedure for responding to a data security incident.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,no incident response procedure,dspt_definition
+S0202,We have never planned for what to do in the event of a cyber attack.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,no incident response procedure,dspt_definition
+S0203,A data breach occurred but was not reported to the ICO.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,breaches not reported / reported late,dspt_definition
+S0204,The breach was reported to the regulator several weeks after it was discovered.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,breaches not reported / reported late,cqc_style
+S0205,Incidents are dealt with informally and not written down anywhere.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,incidents not recorded,dspt_definition
+S0206,There is no log of past data security incidents.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,incidents not recorded,dspt_definition
+S0207,Staff did not know how to report a suspected data breach.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,staff don't know how to report incidents,cqc_style
+S0208,Security warnings from our supplier are received but not acted on.,0,NON_COMPLIANT,DSPT6_Incidents,DSPT,security advice ignored,dspt_definition
+S0209,A business continuity plan covers what we do if our IT systems fail.,1,COMPLIANT,DSPT7_Continuity,DSPT,a business continuity plan in place,dspt_definition
+S0210,Our continuity plan includes how to keep delivering care during a cyber incident.,1,COMPLIANT,DSPT7_Continuity,DSPT,a business continuity plan in place,dspt_definition
+S0211,Care records are backed up every night.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups taken regularly,dspt_definition
+S0212,Backups of all electronic records run automatically each day.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups taken regularly,dspt_definition
+S0213,We test our backups quarterly to confirm data can be restored.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups tested for successful recovery,dspt_definition
+S0214,A restore test is carried out to make sure the backups actually work.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups tested for successful recovery,dspt_definition
+S0215,Backups are encrypted and held separately from the main system.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups stored securely/offsite/encrypted,dspt_definition
+S0216,Copies of our data are stored off-site in case of fire or theft.,1,COMPLIANT,DSPT7_Continuity,DSPT,backups stored securely/offsite/encrypted,dspt_definition
+S0217,The continuity plan is reviewed and updated every year.,1,COMPLIANT,DSPT7_Continuity,DSPT,continuity plan reviewed,dspt_definition
+S0218,There is no continuity plan for what happens if our systems go down.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,no continuity plan,dspt_definition
+S0219,We have not considered how care would continue during an IT failure.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,no continuity plan,dspt_definition
+S0220,Electronic care records are not backed up at all.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,no backups taken,dspt_definition
+S0221,There is no backup of the information held on the office computer.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,no backups taken,dspt_definition
+S0222,The backups have never been tested to see if they would restore.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,backups never tested,dspt_definition
+S0223,We assume the backup works but have never checked.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,backups never tested,dspt_definition
+S0224,Backups are kept on a USB drive left plugged into the same computer.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,backups stored insecurely or not at all,dspt_definition
+S0225,The only copy of our data is on the machine in the office.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,backups stored insecurely or not at all,dspt_definition
+S0226,The continuity plan was written years ago and has not been looked at since.,0,NON_COMPLIANT,DSPT7_Continuity,DSPT,continuity plan outdated or absent,cqc_style
+S0227,All operating systems in use are still supported by their vendor.,1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,only supported systems in use,dspt_definition
+S0228,No unsupported software or browsers are used anywhere in the service.,1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,only supported systems in use,dspt_definition
+S0229,Our browsers and applications all remain within vendor support.,1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,only supported systems in use,dspt_definition
+S0230,"Where an older system is still required, the risk is documented and managed.",1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,legacy systems identified and mitigated,dspt_definition
+S0231,Legacy equipment is isolated from the main network while we replace it.,1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,legacy systems identified and mitigated,dspt_definition
+S0232,Software that reached end-of-life has been removed from our devices.,1,COMPLIANT,DSPT8_UnsupportedSystems,DSPT,unsupported software removed,dspt_definition
+S0233,The home uses an operating system that no longer receives security updates.,0,NON_COMPLIANT,DSPT8_UnsupportedSystems,DSPT,unsupported OS/software/browsers in use,dspt_definition
+S0234,An unsupported web browser is still used to access the care system.,0,NON_COMPLIANT,DSPT8_UnsupportedSystems,DSPT,unsupported OS/software/browsers in use,dspt_definition
+S0235,Old software remains in daily use with no assessment of the risk.,0,NON_COMPLIANT,DSPT8_UnsupportedSystems,DSPT,legacy systems used with no mitigation,dspt_definition
+S0236,The legacy rota system is out of support and connected to the main network.,0,NON_COMPLIANT,DSPT8_UnsupportedSystems,DSPT,legacy systems used with no mitigation,cqc_style
+S0237,Obsolete software has been kept because replacing it would be inconvenient.,0,NON_COMPLIANT,DSPT8_UnsupportedSystems,DSPT,obsolete software knowingly retained,dspt_definition
+S0238,Personal data is encrypted both when stored and when sent externally.,1,COMPLIANT,DSPT9_ITProtection,DSPT,data encrypted at rest and/or in transit,dspt_definition
+S0239,All laptops are encrypted so data is protected if a device is lost.,1,COMPLIANT,DSPT9_ITProtection,DSPT,data encrypted at rest and/or in transit,dspt_definition
+S0240,Care information sent to the GP is encrypted in transit.,1,COMPLIANT,DSPT9_ITProtection,DSPT,data encrypted at rest and/or in transit,dspt_definition
+S0241,We have a cyber security strategy based on a recognised framework.,1,COMPLIANT,DSPT9_ITProtection,DSPT,a cyber security strategy based on a proven framework,dspt_definition
+S0242,Our approach to protecting IT systems follows the Cyber Essentials framework.,1,COMPLIANT,DSPT9_ITProtection,DSPT,Cyber Essentials (or equivalent) in place,dspt_definition
+S0243,The home holds current Cyber Essentials certification.,1,COMPLIANT,DSPT9_ITProtection,DSPT,Cyber Essentials (or equivalent) in place,dspt_definition
+S0244,We submitted our Data Security and Protection Toolkit and met the standards.,1,COMPLIANT,DSPT9_ITProtection,DSPT,DSPT submitted / standards met,dspt_definition
+S0245,The DSPT assessment was completed and published before the deadline.,1,COMPLIANT,DSPT9_ITProtection,DSPT,DSPT submitted / standards met,dspt_definition
+S0246,Our IT protections are reviewed at least once a year.,1,COMPLIANT,DSPT9_ITProtection,DSPT,IT protections reviewed annually,dspt_definition
+S0247,Resident data is stored on USB sticks that are not encrypted.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,sensitive data unencrypted,dspt_definition
+S0248,Care records are emailed without any encryption.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,sensitive data unencrypted,dspt_definition
+S0249,Laptops holding personal data are not encrypted.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,sensitive data unencrypted,dspt_definition
+S0250,There is no strategy for protecting our IT systems from cyber threats.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,no cyber security strategy,dspt_definition
+S0251,We do not follow any recognised cyber security framework.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,no recognised framework followed,dspt_definition
+S0252,The home has not completed its Data Security and Protection Toolkit this year.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,DSPT not submitted / standards not met,dspt_definition
+S0253,Our last DSPT submission did not meet the required standards.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,DSPT not submitted / standards not met,dspt_definition
+S0254,IT security arrangements have not been reviewed for several years.,0,NON_COMPLIANT,DSPT9_ITProtection,DSPT,protections never reviewed,dspt_definition
+S0255,Data processing agreements are in place with all our IT suppliers.,1,COMPLIANT,DSPT10_Suppliers,DSPT,data processing agreements in place with suppliers,dspt_definition
+S0256,Every supplier handling resident data has signed a processing agreement.,1,COMPLIANT,DSPT10_Suppliers,DSPT,data processing agreements in place with suppliers,dspt_definition
+S0257,Our contracts require suppliers to protect the personal data they process.,1,COMPLIANT,DSPT10_Suppliers,DSPT,supplier contracts include data security requirements,dspt_definition
+S0258,Data security obligations are written into our supplier contracts.,1,COMPLIANT,DSPT10_Suppliers,DSPT,supplier contracts include data security requirements,dspt_definition
+S0259,Suppliers are contractually required to meet the national data security standards.,1,COMPLIANT,DSPT10_Suppliers,DSPT,suppliers held accountable for NDG standards,dspt_definition
+S0260,We check that our care system provider maintains its own DSPT compliance.,1,COMPLIANT,DSPT10_Suppliers,DSPT,supplier compliance monitored,dspt_definition
+S0261,No data processing agreements have been signed with our software suppliers.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,no data processing agreements with suppliers,dspt_definition
+S0262,Our IT provider has access to resident data with no written agreement in place.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,no data processing agreements with suppliers,dspt_definition
+S0263,Supplier contracts do not mention data security at all.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,supplier contracts silent on data security,dspt_definition
+S0264,The contract with our care system provider says nothing about protecting data.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,supplier contracts silent on data security,dspt_definition
+S0265,Third parties were given access to resident records without any contract.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,suppliers given access with no accountability,cqc_style
+S0266,We have never checked whether our suppliers meet any data security standards.,0,NON_COMPLIANT,DSPT10_Suppliers,DSPT,supplier compliance never checked,dspt_definition

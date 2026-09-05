@@ -1,6 +1,6 @@
 # Automated Cybersecurity Compliance Assessment for UK Care Homes
 
-MSc Cybersecurity dissertation project comparing supervised machine learning and large language modelmn.  for sentence-level cybersecurity compliance classification, evaluated against UK care home cybersecurity frameworks (Cyber Essentials and DSPT), and deployed in a working web prototype.
+MSc Cybersecurity dissertation project comparing supervised machine learning and large language model for sentence-level cybersecurity compliance classification, evaluated against UK care home cybersecurity frameworks (Cyber Essentials and DSPT), and deployed in a working web prototype.
 
 ## Headline Result
 
